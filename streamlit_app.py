@@ -40,4 +40,3 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("THE FRUIT LOAD LIST CONTAINES:")
 
 streamlit.dataframe(my_data_rows)
-
